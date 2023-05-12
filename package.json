@@ -1,17 +1,56 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+  "license": "UNLICENSED",
+  "private": false,
+  "packageManager": "npm@9.5.0",
+  "description": "Tic tac toe tutorial",
+  "keywords": [
+    "tutorial",
+    "react",
+    "docs"
+  ],
+  "author": {
+    "name": "Siarhei Yemelianau",
+    "email": "xemelyanov@gmail.com",
+    "url": "https://github.com/EmelyanovSI"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/xemelyanov"
+    },
+    {
+      "type": "buymeacoffee",
+      "url": "https://bmc.link/xemelyanov"
+    },
+    {
+      "type": "donationalerts",
+      "url": "https://www.donationalerts.com/r/xemelyanov"
+    },
+    {
+      "type": "boosty",
+      "url": "https://boosty.to/xemelyanov/donate"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/courses-yemelianau/tic-tac-toe"
+  },
+  "bugs": {
+    "url": "https://github.com/courses-yemelianau/tic-tac-toe/issues",
+    "email": "xemelyanov@gmail.com"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "eslintConfig": {
     "extends": [
